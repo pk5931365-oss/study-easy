@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Easy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand">Study Easy</div>
+    <div class="tagline">Keep study easy and affordable</div>
+  </div>
+  <button id="premiumBtn" class="premium">₹50 Premium</button>
+</header>
+
+<main>
+  <section id="home" class="screen active">
+    <div class="hero">
+      <h1>Learn. Practice. Improve.</h1>
+      <p>One simple MCQ app for competitive exams.</p>
+    </div>
+    <div class="grid">
+      <button class="card" data-go="exams"><b>📚 Exams</b><span>Choose your exam</span></button>
+      <button class="card" data-go="daily"><b>🔥 Daily 10</b><span>Build your streak</span></button>
+      <button class="card" data-go="mock"><b>📝 Mock Test</b><span>Practice under time</span></button>
+      <button class="card" data-go="progress"><b>📊 Progress</b><span>See your performance</span></button>
+    </div>
+    <div class="panel">
+      <div class="row"><b>Today's streak</b><strong id="streak">0 days</strong></div>
+      <div class="progress"><div id="streakBar"></div></div>
+      <small>Answer today's questions to grow your streak.</small>
+    </div>
+  </section>
+
+  <section id="exams" class="screen">
+    <h2>Choose your exam</h2>
+    <div id="examList" class="list"></div>
+  </section>
+
+  <section id="levels" class="screen">
+    <h2 id="levelTitle">Choose difficulty</h2>
+    <p class="muted">Questions are grouped into Easy, Medium and Hard.</p>
+    <div class="levelGrid">
+      <button class="level easy" data-level="Easy">Easy</button>
+      <button class="level medium" data-level="Medium">Medium</button>
+      <button class="level hard" data-level="Hard">Hard</button>
+    </div>
+  </section>
+
+  <section id="quiz" class="screen">
+    <div class="quizTop"><span id="quizMeta"></span><span id="timer"></span></div>
+    <div class="progress"><div id="quizBar"></div></div>
+    <div class="questionCard">
+      <h2 id="question"></h2>
+      <div id="options"></div>
+      <button id="nextBtn" class="primary" disabled>Next</button>
+    </div>
+  </section>
+
+  <section id="result" class="screen">
+    <div class="result">
+      <div class="resultIcon">🎯</div>
+      <h1 id="resultTitle">Test complete</h1>
+      <div class="score" id="score"></div>
+      <p id="resultText"></p>
+      <button class="primary" data-go="home">Back to Home</button>
+      <button class="secondary" data-go="exams">Practice Again</button>
+    </div>
+  </section>
+
+  <section id="daily" class="screen">
+    <h2>🔥 Daily 10</h2>
+    <p class="muted">A mixed set designed for quick daily practice.</p>
+    <button id="dailyBtn" class="primary">Start Daily 10</button>
+    <div class="panel"><b>Tip</b><p>Review every explanation, especially questions you miss.</p></div>
+  </section>
+
+  <section id="mock" class="screen">
+    <h2>📝 Mock Test</h2>
+    <p class="muted">Start a short demo mock. Full exam-length tests can be added later.</p>
+    <button id="mockBtn" class="primary">Start Mock Test</button>
+    <div class="panel"><b>Premium</b><p>Premium can unlock larger question banks, detailed analytics and ad-free practice.</p></div>
+  </section>
+
+  <section id="progress" class="screen">
+    <h2>📊 My Progress</h2>
+    <div class="stats">
+      <div><b id="attempts">0</b><span>Attempts</span></div>
+      <div><b id="correct">0</b><span>Correct</span></div>
+      <div><b id="accuracy">0%</b><span>Accuracy</span></div>
+    </div>
+    <div class="panel"><b>Recent activity</b><div id="history"></div></div>
+  </section>
+
+  <section id="premium" class="screen">
+    <h2>⭐ Study Easy Premium</h2>
+    <p class="price">₹50 <small>/ month</small></p>
+    <ul class="features">
+      <li>✓ Ad-free practice</li>
+      <li>✓ More mock tests</li>
+      <li>✓ Detailed performance analysis</li>
+      <li>✓ Extra question sets</li>
+      <li>✓ Saved questions</li>
+    </ul>
+    <button id="buyBtn" class="primary">Get Premium for ₹50/month</button>
+    <p class="muted tiny">Demo purchase button. Real Google Play Billing must be connected before publishing.</p>
+  </section>
+</main>
+
+<nav>
+  <button data-go="home">⌂<span>Home</span></button>
+  <button data-go="exams">▣<span>Exams</span></button>
+  <button data-go="daily">🔥<span>Daily</span></button>
+  <button data-go="progress">◔<span>Progress</span></button>
+</nav>
+<script src="app.js"></script>
+</body>
+</html>
