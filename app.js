@@ -7,6 +7,40 @@ const exams = [
  {id:"UPSC",name:"UPSC CSE",desc:"GS • CSAT"},
  {id:"RAILWAY",name:"Railway",desc:"Maths • Reasoning • GK"},
  {id:"SSC",name:"SSC",desc:"Quant • Reasoning • English • GK"}
+ {exam:"CDS",level:"Easy",q:"Who appoints the Governor of a state in India?",o:["Prime Minister","President","Chief Minister","Chief Justice"],a:1,e:"The Governor of a state is appointed by the President of India."},
+ {exam:"CDS",level:"Easy",q:"Which is the largest planet in the Solar System?",o:["Earth","Saturn","Jupiter","Neptune"],a:2,e:"Jupiter is the largest planet in the Solar System."},
+ {exam:"CDS",level:"Easy",q:"What is the capital of Rajasthan?",o:["Jodhpur","Jaipur","Udaipur","Kota"],a:1,e:"Jaipur is the capital of Rajasthan."},
+ {exam:"CDS",level:"Easy",q:"Which gas is most abundant in Earth's atmosphere?",o:["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],a:2,e:"Nitrogen makes up about 78% of Earth's atmosphere."},
+ {exam:"CDS",level:"Easy",q:"Who wrote the Indian national anthem?",o:["Bankim Chandra Chattopadhyay","Rabindranath Tagore","Sarojini Naidu","Subhas Chandra Bose"],a:1,e:"Rabindranath Tagore wrote 'Jana Gana Mana'."},
+ {exam:"CDS",level:"Easy",q:"What is the currency of Japan?",o:["Won","Yuan","Yen","Ringgit"],a:2,e:"The currency of Japan is the Japanese Yen."},
+ {exam:"CDS",level:"Easy",q:"Which vitamin is mainly produced in the skin through sunlight?",o:["Vitamin A","Vitamin B12","Vitamin C","Vitamin D"],a:3,e:"Sunlight helps the skin synthesize vitamin D."},
+ {exam:"CDS",level:"Easy",q:"The headquarters of the United Nations is located in:",o:["Geneva","Paris","New York","London"],a:2,e:"The UN headquarters is in New York City."},
+ {exam:"CDS",level:"Easy",q:"Which river is known as the 'Sorrow of Bihar'?",o:["Ganga","Kosi","Yamuna","Godavari"],a:1,e:"The Kosi River is traditionally known as the Sorrow of Bihar because of its floods."},
+ {exam:"CDS",level:"Easy",q:"What is the SI unit of power?",o:["Joule","Newton","Watt","Pascal"],a:2,e:"Power is measured in watts (W)."},
+
+
+ {exam:"CDS",level:"Medium",q:"Which Fundamental Right is guaranteed under Article 19?",o:["Right to Equality","Right to Freedom","Right against Exploitation","Right to Education"],a:1,e:"Article 19 guarantees several freedoms, including speech and expression."},
+ {exam:"CDS",level:"Medium",q:"The Permanent Settlement was introduced by:",o:["Lord Wellesley","Lord Cornwallis","Lord Dalhousie","Lord Curzon"],a:1,e:"Lord Cornwallis introduced the Permanent Settlement in 1793."},
+ {exam:"CDS",level:"Medium",q:"Which Indian state has the longest coastline?",o:["Tamil Nadu","Andhra Pradesh","Gujarat","Maharashtra"],a:2,e:"Gujarat has the longest coastline among Indian states."},
+ {exam:"CDS",level:"Medium",q:"The Tropic of Cancer passes through how many Indian states?",o:["6","7","8","9"],a:2,e:"The Tropic of Cancer passes through 8 Indian states."},
+ {exam:"CDS",level:"Medium",q:"Which blood group is commonly called the universal donor for red blood cells?",o:["AB+","O−","A+","B−"],a:1,e:"O-negative red blood cells are generally considered the universal donor type."},
+ {exam:"CDS",level:"Medium",q:"The Green Revolution in India was mainly associated with increased production of:",o:["Tea","Wheat and rice","Cotton","Sugarcane"],a:1,e:"The Green Revolution greatly increased wheat and rice production."},
+ {exam:"CDS",level:"Medium",q:"Which Constitutional Amendment reduced the voting age from 21 to 18?",o:["42nd","44th","61st","73rd"],a:2,e:"The 61st Constitutional Amendment Act, 1988, lowered the voting age to 18."},
+ {exam:"CDS",level:"Medium",q:"Which layer of the atmosphere contains most weather phenomena?",o:["Stratosphere","Troposphere","Mesosphere","Thermosphere"],a:1,e:"Most weather occurs in the troposphere."},
+ {exam:"CDS",level:"Medium",q:"If the speed of a body is doubled, its kinetic energy becomes:",o:["Half","Double","Four times","Eight times"],a:2,e:"Kinetic energy is proportional to the square of velocity, so doubling speed makes it four times larger."},
+ {exam:"CDS",level:"Medium",q:"Choose the correct sentence:",o:["Neither of the boys are present.","Neither of the boys is present.","Neither boys is present.","Neither boys are present."],a:1,e:"'Neither' is singular and takes the singular verb 'is' in standard usage."},
+
+
+ {exam:"CDS",level:"Hard",q:"Which Act introduced dyarchy in the provinces of British India?",o:["Government of India Act 1909","Government of India Act 1919","Government of India Act 1935","Indian Councils Act 1892"],a:1,e:"The Government of India Act 1919 introduced dyarchy in the provinces."},
+ {exam:"CDS",level:"Hard",q:"The doctrine of lapse is most closely associated with:",o:["Lord Ripon","Lord Curzon","Lord Dalhousie","Lord Canning"],a:2,e:"Lord Dalhousie extensively applied the Doctrine of Lapse."},
+ {exam:"CDS",level:"Hard",q:"Which Schedule of the Constitution deals with the allocation of seats in the Rajya Sabha?",o:["Third Schedule","Fourth Schedule","Fifth Schedule","Seventh Schedule"],a:1,e:"The Fourth Schedule deals with allocation of seats in the Council of States (Rajya Sabha)."},
+ {exam:"CDS",level:"Hard",q:"In economics, a situation where general prices continuously fall is called:",o:["Inflation","Stagflation","Deflation","Reflation"],a:2,e:"Deflation refers to a sustained decline in the general price level."},
+ {exam:"CDS",level:"Hard",q:"Which writ is issued to produce a person who has been unlawfully detained?",o:["Mandamus","Certiorari","Habeas Corpus","Quo Warranto"],a:2,e:"Habeas Corpus is used to challenge unlawful detention."},
+ {exam:"CDS",level:"Hard",q:"If the radius of a sphere is doubled, its volume becomes:",o:["2 times","4 times","6 times","8 times"],a:3,e:"Volume of a sphere is proportional to r³, so doubling the radius gives 8 times the volume."},
+ {exam:"CDS",level:"Hard",q:"Which part of the brain is primarily responsible for maintaining posture and balance?",o:["Cerebrum","Cerebellum","Medulla","Hypothalamus"],a:1,e:"The cerebellum plays a major role in coordination, posture and balance."},
+ {exam:"CDS",level:"Hard",q:"Which of the following pairs is incorrectly matched?",o:["Narmada — Rift valley river","Godavari — Dakshin Ganga","Mahanadi — Odisha","Luni — Arabian Sea"],a:3,e:"The Luni does not reach the Arabian Sea; it drains into the Rann of Kutch."},
+ {exam:"CDS",level:"Hard",q:"A man walks 10 km north, then 10 km east. What is his displacement from the starting point?",o:["10 km","20 km","10√2 km","5√2 km"],a:2,e:"The two perpendicular movements form a right triangle, giving displacement √(10²+10²) = 10√2 km."},
+ {exam:"CDS",level:"Hard",q:"Choose the grammatically correct sentence:",o:["No sooner he arrived than it started raining.","No sooner had he arrived than it started raining.","No sooner did he arrived than it started raining.","No sooner he had arrived when it started raining."],a:1,e:"The standard construction is 'No sooner had ... than ...'."},
 ];
 
 const questions = [
